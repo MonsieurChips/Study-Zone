@@ -38,7 +38,7 @@ This repository contains a complete full-stack web application for StudyZone, an
 4. Run `npm start` to start the server
 
 ### Deployment to Render.com
-The application includes a `render.yaml` configuration file that makes deployment to Render.com straightforward. Simply connect your GitHub repository to Render and it will automatically detect and configure the deployment settings.
+The application includes a `render.yaml` configuration file that makes deployment to Render.com straightforward. Simply connect your GitHub repository to Render and it will automatically detect and configure the deployment settings. The application specifies Node.js 18.x in package.json for consistent deployment.
 
 ### Frontend Setup
 1. Navigate to the `Fullstack-FE-master` directory
