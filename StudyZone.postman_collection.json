@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "7f046d66-aa2b-410e-b379-e2bb0fdff1c7",
+		"name": "StudyZone",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46748535",
+		"_collection_link": "https://kennedymichael-9823449.postman.co/workspace/Kennedy-Michael's-Workspace~3718c958-68b7-4a47-8b60-e7e058aee0e3/collection/46748535-7f046d66-aa2b-410e-b379-e2bb0fdff1c7?action=share&source=collection_link&creator=46748535"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://studyzone-k553.onrender.com/api/order",
+					"protocol": "https",
+					"host": [
+						"studyzone-k553",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://studyzone-k553.onrender.com/api/lessons",
+					"protocol": "https",
+					"host": [
+						"studyzone-k553",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"lessons"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

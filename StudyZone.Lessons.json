@@ -1,0 +1,143 @@
+[{
+  "_id": "673f0b2f5d43fb8fb1cab505",
+  "name": "Creative Cooking & Baking",
+  "price": 450,
+  "location": "Grand Baie",
+  "availableSpaces": 7,
+  "subcategory": "Pastry & Cuisine",
+  "category": "Culinary Arts",
+  "description": "Explore new recipes and techniques in both savory cooking and sweet baking. Perfect for food enthusiasts of all levels.",
+  "image": "/images/creative_cooking.png"
+},
+{
+  "_id": "673f0b2f5d43fb8fb1cab509",
+  "name": "Introduction to Game Development",
+  "price": 850,
+  "location": "Singapore",
+  "availableSpaces": 7,
+  "subcategory": "Unity Engine",
+  "category": "Game Design",
+  "description": "Take your first steps into game development. Learn the basics of C# and the Unity engine to build your first 2D game.",
+  "image": "/images/game_development_intro.png"
+},
+{
+  "_id": "673f0b2f5d43fb8fb1cab510",
+  "name": "Japanese for Travelers",
+  "price": 400,
+  "location": "Quatre Bornes",
+  "availableSpaces": 14,
+  "subcategory": "Conversational Japanese",
+  "category": "Language Learning",
+  "description": "Learn essential phrases and cultural etiquette for your next trip to Japan. Focus on practical, conversational skills.",
+  "image": "/images/japanese_for_travelers.png"
+},
+{
+  "_id": "673f0b2f5d43fb8fb1cab513",
+  "name": "Advanced Game Design with Unreal Engine",
+  "price": 1200,
+  "location": "Online",
+  "availableSpaces": 3,
+  "subcategory": "Unreal Engine 5",
+  "category": "Game Design",
+  "description": "Dive deep into advanced game mechanics, level design, and photorealistic rendering with Unreal Engine 5.",
+  "image": "/images/advanced_game_design.png"
+},
+{
+  "_id": "673f0b2f5d43fb8fb1cab501",
+  "name": "Introduction to Graphic Design",
+  "price": 550,
+  "location": "Port Louis",
+  "availableSpaces": 8,
+  "subcategory": "Design Fundamentals",
+  "category": "Creative Arts",
+  "description": "Learn the core principles of visual communication, including typography, color theory, and layout design using modern tools.",
+  "image": "/images/graphic_design_intro.png"
+},
+{
+  "_id": "673f0b2f5d43fb8fb1cab508",
+  "name": "Public Speaking & Presentation",
+  "price": 600,
+  "location": "Ebene",
+  "availableSpaces": 11,
+  "subcategory": "Communication Skills",
+  "category": "Personal Development",
+  "description": "Build your confidence and master the art of public speaking. Learn to craft and deliver compelling presentations.",
+  "image": "/images/public_speaking.png"
+},
+{
+  "_id": "673f0b2f5d43fb8fb1cab511",
+  "name": "Data Visualization with D3.js",
+  "price": 900,
+  "location": "Online",
+  "availableSpaces": 10,
+  "subcategory": "Web-based Charts",
+  "category": "Data Science",
+  "description": "Master the D3.js library to create powerful, interactive, and beautiful data visualizations for the web.",
+  "image": "/images/data_visualization_d3.png"
+},
+{
+  "_id": "673f0b2f5d43fb8fb1cab502",
+  "name": "Digital Marketing Masterclass",
+  "price": 800,
+  "location": "Dubai",
+  "availableSpaces": 6,
+  "subcategory": "Social Media & SEO",
+  "category": "Marketing",
+  "description": "A comprehensive guide to digital marketing, covering SEO, content marketing, and social media advertising strategies.",
+  "image": "/images/digital_marketing_masterclass.png"
+},
+{
+  "_id": "673f0b2f5d43fb8fb1cab503",
+  "name": "Mobile Photography for Beginners",
+  "price": 350,
+  "location": "Curepipe",
+  "availableSpaces": 15,
+  "subcategory": "Smartphone Photography",
+  "category": "Photography",
+  "description": "Unlock the full potential of your smartphone camera. Learn composition, lighting, and editing techniques for stunning photos.",
+  "image": "/images/mobile_photography.png"
+},
+{
+  "_id": "673f0b2f5d43fb8fb1cab504",
+  "name": "Introduction to Cloud Computing",
+  "price": 950,
+  "location": "Online",
+  "availableSpaces": 12,
+  "subcategory": "AWS & Azure Basics",
+  "category": "IT & Cloud",
+  "description": "Understand the fundamentals of cloud services, including IaaS, PaaS, and SaaS, with an introduction to AWS and Azure.",
+  "image": "/images/cloud_computing_intro.png"
+},
+{
+  "_id": "673f0b2f5d43fb8fb1cab506",
+  "name": "Music Production with Ableton",
+  "price": 750,
+  "location": "London",
+  "availableSpaces": 7,
+  "subcategory": "Electronic Music",
+  "category": "Music & Audio",
+  "description": "Learn to produce, record, and mix your own music from scratch using Ableton Live, a leading digital audio workstation.",
+  "image": "/images/music_production_ableton.png"
+},
+{
+  "_id": "673f0b2f5d43fb8fb1cab507",
+  "name": "Blockchain & Cryptocurrency 101",
+  "price": 1100,
+  "location": "Online",
+  "availableSpaces": 9,
+  "subcategory": "Blockchain Technology",
+  "category": "Finance & Technology",
+  "description": "An essential introduction to the world of blockchain, distributed ledgers, and cryptocurrencies like Bitcoin and Ethereum.",
+  "image": "/images/blockchain_crypto_101.png"
+},
+{
+  "_id": "673f0b2f5d43fb8fb1cab512",
+  "name": "Sustainable Living Workshop",
+  "price": 300,
+  "location": "Moka",
+  "availableSpaces": 20,
+  "subcategory": "Eco-Friendly Practices",
+  "category": "Lifestyle & Wellness",
+  "description": "Discover practical ways to reduce your carbon footprint, from zero-waste habits to urban gardening and composting.",
+  "image": "/images/sustainable_living.png"
+}]
