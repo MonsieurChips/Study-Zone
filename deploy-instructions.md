@@ -69,3 +69,4 @@ You can deploy your frontend to any static hosting service like:
 - The free tier may have some limitations on uptime and performance
 - Your MongoDB Atlas database will work with both local and Render deployments
 - Remember to never commit sensitive information like database connection strings to version control
+- The application now specifies Node.js 18.x in package.json for consistent deployment
