@@ -19,7 +19,7 @@
    - Build Command: npm install
    - Start Command: npm start
 
-Note: The Root Directory setting is now handled automatically by our render.yaml configuration file.
+Note: Render.com will now automatically detect and use our root-level render.yaml configuration file, which properly handles the directory structure.
 
 2. Under "Environment Variables", add:
    - Key: MONGODB_URI
