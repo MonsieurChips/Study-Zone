@@ -15,10 +15,11 @@
 ### 3. Configure Your Web Service
 1. Set the following configuration:
    - Name: studyzone-backend (or any name you prefer)
-   - Root Directory: Fullstack-BE-main
    - Runtime: Node
    - Build Command: npm install
    - Start Command: npm start
+
+Note: The Root Directory setting is now handled automatically by our render.yaml configuration file.
 
 2. Under "Environment Variables", add:
    - Key: MONGODB_URI
