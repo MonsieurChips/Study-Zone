@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: studyzone-backend
+    env: node
+    plan: free
+    buildCommand: cd Fullstack-BE-main && npm install
+    startCommand: cd Fullstack-BE-main && npm start
+    envVars:
+      - key: MONGODB_URI
+        sync: false
