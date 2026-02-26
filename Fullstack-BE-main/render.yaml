@@ -3,6 +3,8 @@ services:
     name: studyzone-backend
     env: node
     plan: free
+    repo: https://github.com/MonsieurChips/Study-Zone.git
+    rootDir: Fullstack-BE-main
     buildCommand: npm install
     startCommand: npm start
     envVars:
