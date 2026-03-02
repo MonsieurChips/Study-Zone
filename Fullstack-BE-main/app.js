@@ -5,6 +5,7 @@ const loggerMiddleware = require("./src/middleware/logger");
 const mainRouter = require("./src/routes");
 
 const app = express();
+const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 
@@ -13,6 +14,11 @@ app.use(express.json());
 app.use(loggerMiddleware);
 
 app.use(express.static(path.join(__dirname, "public")));
+
+// Health check endpoint for Render
+app.get("/health", (req, res) => {
+  res.status(200).json({ status: "OK", timestamp: new Date().toISOString(), service: "StudyZone Backend" });
+});
 
 app.use("/api", mainRouter);
 

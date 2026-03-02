@@ -1,10 +1,13 @@
 services:
   - type: web
     name: studyzone-backend
-    env: node
+    env: docker
     plan: free
-    buildCommand: cd Fullstack-BE-main && npm install
-    startCommand: cd Fullstack-BE-main && npm start
+    dockerfilePath: Fullstack-BE-main/Dockerfile
+    dockerContext: Fullstack-BE-main
+    healthCheckPath: /health
     envVars:
       - key: MONGODB_URI
         sync: false
+      - key: NODE_ENV
+        value: production

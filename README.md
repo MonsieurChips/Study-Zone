@@ -37,8 +37,23 @@ This repository contains a complete full-stack web application for StudyZone, an
    ```
 4. Run `npm start` to start the server
 
-### Deployment to Render.com
-The application includes a `render.yaml` configuration file that makes deployment to Render.com straightforward. Simply connect your GitHub repository to Render and it will automatically detect and configure the deployment settings. The application specifies Node.js 20.x in package.json for consistent deployment.
+### Deployment with Docker
+The application can be deployed using Docker for consistent environments across development, testing, and production. Docker ensures that all dependencies are properly installed and configured.
+
+#### Prerequisites
+- Docker installed on your system
+- Docker Compose (included with Docker Desktop for Windows/Mac)
+
+#### Quick Start
+1. Clone the repository
+2. Navigate to the project root directory
+3. Run `docker-compose up` to start the application
+4. Access the application at http://localhost:3000
+
+#### Docker Configuration
+- The backend service runs on port 3000
+- MongoDB runs on port 27017
+- Environment variables are loaded from `.env` file
 
 ### Frontend Setup
 1. Navigate to the `Fullstack-FE-master` directory

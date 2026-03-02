@@ -5,6 +5,11 @@ const { MongoClient, ServerApiVersion } = require("mongodb");
 
 const uri = process.env.MONGODB_URI;
 
+// Validate that we have the connection string
+if (!uri) {
+  console.error("MONGODB_URI environment variable is not set");
+  process.exit(1);
+}
 
 const client = new MongoClient(uri, {
   serverApi: {
@@ -22,8 +27,9 @@ async function connectToDb() {
     return db;
   }
   try {
-
+    console.log("Connecting to MongoDB...");
     await client.connect();
+    console.log("Connected to MongoDB successfully");
 
     db = client.db("StudyZone");
     return db;
@@ -44,5 +50,12 @@ function getDb() {
   }
   return db;
 }
+
+// Graceful shutdown
+process.on('SIGINT', async () => {
+  console.log('Closing MongoDB connection...');
+  await client.close();
+  process.exit(0);
+});
 
 module.exports = { connectToDb, getDb };
