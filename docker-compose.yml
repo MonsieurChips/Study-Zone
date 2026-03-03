@@ -3,7 +3,7 @@ version: '3.8'
 services:
   studyzone-backend:
     build:
-      context: ./Fullstack-BE-main
+      context: .
       dockerfile: Dockerfile
     ports:
       - "3000:3000"

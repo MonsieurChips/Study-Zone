@@ -3,8 +3,6 @@ services:
     name: studyzone-backend
     env: docker
     plan: free
-    dockerContext: ./Fullstack-BE-main
-    dockerfilePath: ./Fullstack-BE-main/Dockerfile
     healthCheckPath: /health
     envVars:
       - key: MONGODB_URI
