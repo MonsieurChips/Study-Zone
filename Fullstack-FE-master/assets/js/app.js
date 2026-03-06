@@ -4,10 +4,10 @@ new Vue({
   data: {
     baseUrl: window.location.origin === "https://monsieurchips.github.io" 
       ? "https://studyzone-backend.onrender.com"  // Render backend URL
-      : "http://localhost:3000",
+      : "https://studyzone-k553.onrender.com",
     serverUrl: window.location.origin === "https://monsieurchips.github.io"
       ? "https://studyzone-backend.onrender.com/api"
-      : "http://localhost:3000/api",
+      : "https://studyzone-k553.onrender.com/api",
     lessons: [],
     cart: [],
     loading: true,
