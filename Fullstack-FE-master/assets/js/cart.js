@@ -69,7 +69,7 @@ new Vue({
       };
 
       try {
-        const orderResponse = await fetch(`${this.serverUrl}/orders`, {
+        const orderResponse = await fetch(`${this.serverUrl}/orders/`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(orderPayload),
