@@ -1,7 +1,7 @@
 // Vue Instance for the StudyZone Cart Page (with Thank You Message)
 new Vue({
   el: "#app",
-  data: {
+    data: {
     serverUrl: window.location.origin === "https://monsieurchips.github.io"
       ? "https://studyzone-backend.onrender.com/api"
       : "https://studyzone-k553.onrender.com/api",
@@ -14,6 +14,7 @@ new Vue({
     error: null,
 
     orderPlaced: false,
+    ordersuccess: false,
   },
 
   computed: {
@@ -81,7 +82,7 @@ new Vue({
           const newAvailableSpaces =
             item.lessonSnapshot.availableSpaces - item.spaces;
           const updatePayload = { availableSpaces: newAvailableSpaces };
-          return fetch(`${this.serverUrl}/lessons/${item.lessonId}`, {
+          return fetch(`${this.serverUrl}/lessons/${item.lessonId}/`, {
             method: "PUT",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(updatePayload),
@@ -94,6 +95,7 @@ new Vue({
         localStorage.removeItem("studyzone-cart");
 
         this.orderPlaced = true;
+        this.ordersuccess = true;
       } catch (error) {
         this.error = `Error: ${error.message}`;
         console.error("Order submission error:", error);
