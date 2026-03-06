@@ -2,8 +2,12 @@
 new Vue({
   el: "#app",
   data: {
-    baseUrl: "http://localhost:3000",
-    serverUrl: "http://localhost:3000/api",
+    baseUrl: window.location.origin === "https://monsieurchips.github.io" 
+      ? "https://studyzone-backend.onrender.com"  // Render backend URL
+      : "http://localhost:3000",
+    serverUrl: window.location.origin === "https://monsieurchips.github.io"
+      ? "https://studyzone-backend.onrender.com/api"
+      : "http://localhost:3000/api",
     lessons: [],
     cart: [],
     loading: true,
