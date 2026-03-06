@@ -4,7 +4,7 @@ new Vue({
   data: {
     serverUrl: window.location.origin === "https://monsieurchips.github.io"
       ? "https://studyzone-backend.onrender.com/api"
-      : "http://localhost:3000/api",
+      : "https://studyzone-k553.onrender.com/api",
     cart: [],
     checkout: {
       name: "",
