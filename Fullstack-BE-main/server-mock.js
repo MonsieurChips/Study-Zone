@@ -257,6 +257,14 @@ app.put('/api/lessons/:id', (req, res) => {
 // Serve static images from the public folder
 app.use('/images', express.static(path.join(__dirname, 'public/images')));
 
+// Serve static frontend files from Fullstack-FE-master
+app.use(express.static(path.join(__dirname, '../Fullstack-FE-master')));
+
+// Serve index.html for root route
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, '../Fullstack-FE-master/index.html'));
+});
+
 // Health check endpoint
 app.get('/health', (req, res) => {
   res.json({

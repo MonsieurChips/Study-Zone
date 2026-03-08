@@ -48,7 +48,7 @@ The application can be deployed using Docker for consistent environments across 
 1. Clone the repository
 2. Navigate to the project root directory
 3. Run `docker-compose up` to start the application
-4. Access the application at http://localhost:3000
+4. Access the application at https://studyzone-k553.onrender.com
 
 #### Docker Configuration
 - The backend service runs on port 3000

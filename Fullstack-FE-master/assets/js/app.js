@@ -4,15 +4,15 @@ new Vue({
   data: {
     baseUrl: window.location.origin === "https://monsieurchips.github.io" 
       ? "https://studyzone-backend.onrender.com"  // Render backend URL
-      : "https://studyzone-k553.onrender.com",
+      : "", // Local server - same origin
     serverUrl: window.location.origin === "https://monsieurchips.github.io"
       ? "https://studyzone-backend.onrender.com/api"
-      : "https://studyzone-k553.onrender.com/api",
+      : "/api", // Local API endpoint
     lessons: [],
     cart: [],
     loading: true,
     error: null,
-    // **REMOVED**: orderSuccess flag is no longer needed here.
+    orderSuccess: false, // Re-added for success message display
     searchQuery: "",
     searchDebounce: null,
     sort: {
